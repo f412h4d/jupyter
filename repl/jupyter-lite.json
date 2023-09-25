@@ -7,16 +7,4 @@
         "jupyterlab-kernel-spy",
         "jupyterlab-tour"
       ],
-      "fileTypes": {
-        "csv": {
-          "extensions": [
-            ".csv"
-          ],
-          "fileFormat": "text",
-          "mimeTypes": [
-            "text/csv"
-          ],
-          "name": "csv"
-        }
-      }
   }
