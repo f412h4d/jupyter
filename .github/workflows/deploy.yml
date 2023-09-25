@@ -44,7 +44,8 @@ jobs:
         run: echo "::set-output name=url::$(curl --silent http://127.0.0.1:4040/api/tunnels | jq -r '.tunnels[0].public_url')"
 
       - name: Print ngrok public URL
-        run: echo "Ngrok Public URL: ${{ steps.geturl.outputs.url }}"
+        run: |
+          echo "Ngrok Public URL: ${{ steps.geturl.outputs.url }}"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
