@@ -1,0 +1,9 @@
+{
+    "jupyter-config-data": {
+        "landing": {
+            "page": "retro/notebook",
+            "workspace": "retro-tree",
+            "path": "./MACD_Backtesting.ipynb"
+        }
+    }
+}
